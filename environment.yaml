@@ -1,0 +1,26 @@
+name: base
+channels:
+  - conda-forge
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+  - https://repo.anaconda.com/pkgs/msys2
+dependencies:
+  - python=3.12
+  - conda==25.1.1
+  - setuptools
+  - pip
+  - wheel
+  - conda-anaconda-telemetry
+  - conda-content-trust
+  - conda-libmamba-solver
+  - menuinst
+  - anaconda_prompt
+  - anaconda_powershell_prompt
+  - anaconda-anon-usage
+  - jupyter-book
+  - jupyterlab
+  - jupyterlab-git
+  - jupyterlab-spellchecker
+  - pandas
+  - nb_conda_kernels
+prefix: C:\Users\rahar\miniconda3
